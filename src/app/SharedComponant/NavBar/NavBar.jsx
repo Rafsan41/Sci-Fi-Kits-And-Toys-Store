@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   return (
     <div>
-      <div className="navbar bg-gray-300">
+      <div className="navbar bg-purple-300">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">
             Sci-Fi Kits And Store
@@ -12,16 +14,16 @@ const NavBar = () => {
             <input
               type="text"
               placeholder="Search"
-              className="input input-bordered"
+              className="input  bg-gray-50"
             />
           </div>
-          <div className="flex-none mr-20">
+          <div className="flex-none mr-10">
             <ul className="menu menu-horizontal px-1">
               <li>
                 <a>Home</a>
               </li>
               <li>
-                <a>Store</a>
+                <Link to="/allToys">All Toys</Link>
               </li>
               <li tabIndex={0}>
                 <a>
@@ -38,7 +40,7 @@ const NavBar = () => {
                 </a>
                 <ul className="  bg-base-100">
                   <li>
-                    <a>About Us</a>
+                    <Link to="/aboutUs">About Us</Link>
                   </li>
                   <li>
                     <a>Contact Us</a>
@@ -51,18 +53,32 @@ const NavBar = () => {
             </ul>
           </div>
           <div className=" flex justify-center items-center gap-5">
-            <div>rafsan ditpo</div>
-            <div>
+            <div className="flex justify-center">
+              <div className="flex justify-center text-gray-50 gap-5 mr-5">
+                <div>
+                  <button className="bg-blue-400">
+                    <Link to="/register">Register</Link>
+                  </button>
+                </div>
+                <div>
+                  <button className="bg-blue-400">
+                    <Link to="/logIn">Log In</Link>
+                  </button>
+                </div>
+              </div>
               <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                  <div className="w-10 rounded-full">
+                  <div className="w-10 rounded-full ">
                     <img src="/src/assets/Profile/profile.JPG" />
                   </div>
                 </label>
                 <ul
                   tabIndex={0}
-                  className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
+                  className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-orange-300 rounded-box w-52"
                 >
+                  <li>
+                    <small className="font-bold text-xs">Rafsan dipto</small>
+                  </li>
                   <li>
                     <a className="justify-between">Profile</a>
                   </li>
