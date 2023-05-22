@@ -14,7 +14,7 @@ const StoreAllProduct = () => {
 
   return (
     <div>
-      <div className="store-container grid grid-cols-4 ">
+      <div className="store-container grid grid-cols-4 gap-[5px] ">
         {products.map((product) => (
           <StoreSingleProduct
             key={product.id}
