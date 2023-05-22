@@ -5,7 +5,7 @@ import Footer from "./app/SharedComponant/Footer/Footer";
 
 function App() {
   return (
-    <div className="border-2 border-red-400 w-screen h-[100%]">
+    <div className=" w-screen h-[100%]">
       <NavBar />
       <Outlet />
       <Footer />
