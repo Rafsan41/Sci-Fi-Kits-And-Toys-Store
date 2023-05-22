@@ -1,18 +1,20 @@
-const StoreSingleProduct = () => {
+const StoreSingleProduct = (props) => {
+  console.log(props);
+  const { name, category, price, manufacturer } = props.product;
+
   return (
     <div>
-      StoreSingleProduct
-      <div className="card w-72 bg-base-100 shadow-xl">
+      <div className="card w-64 h-[400px] bg-pink-200 shadow-xl mb-10">
         <figure>
           <img
-            className="w-72"
+            className="w-64 h-52  rounded"
             src="/src/assets/ProductImg/printed-summer-dress-1.jpg"
             alt="toys"
           />
         </figure>
         <div className="card-body">
           <h2 className="card-title">
-            Shoes!
+            {name}
             <div className="badge badge-secondary">NEW</div>
           </h2>
           <p>If a dog chews shoes whose shoes does he choose?</p>
