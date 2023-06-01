@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import StoreSingleProduct from "../StoreSingleProduct/StoreSingleProduct";
+// import { useLoaderData } from "react-router";
 
 const StoreAllProduct = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("./ProductData.json")
+    fetch("http://localhost:5000/allToys")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);

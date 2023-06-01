@@ -1,5 +1,4 @@
 const StoreSingleProduct = (props) => {
-  console.log(props.product);
   const {
     id,
     name,
@@ -11,21 +10,22 @@ const StoreSingleProduct = (props) => {
     description,
   } = props.product;
 
-  //   console.log(name);
-
   return (
     <div>
-      <h2></h2>
-      <div className="card w-64 h-[400px] bg-pink-200 shadow-xl mb-10">
-        <img className="w-64 h-52  rounded" src={img} alt="toys" />
+      <div className="card w-full sm:w-64 h-[500px] bg-pink-200 shadow-xl mb-10 rounded-lg">
+        <img
+          className="w-full h-52 object-cover rounded-t-lg"
+          src={img}
+          alt="Toy"
+        />
 
-        <div className="card-body">
-          <h2 className="card-title">{name}</h2>
-          <div className="text-start">
-            <p> {category}</p>
-            <p> {price}$</p>
-            <p>By {manufacturer}</p>
-            <div className="rating">
+        <div className="card-body p-4">
+          <h2 className="card-title text-lg font-semibold mb-2">{name}</h2>
+          <div className="text-start mb-4">
+            <p className="text-gray-700 text-sm mb-2">{category}</p>
+            <p className="text-lg font-bold mb-2">${price}</p>
+            <p className="text-gray-700 text-sm mb-2">By {manufacturer}</p>
+            <div className="rating mt-2 ">
               <input
                 type="radio"
                 name="rating-4"
@@ -54,28 +54,45 @@ const StoreSingleProduct = (props) => {
               />
             </div>
           </div>
-          <div className="card-actions justify-start">
+
+          <div className="card-actions justify-start flex-grow">
             {/* The button to open modal */}
-            <label htmlFor="my-modal-6" className=" badge">
+            <label htmlFor={`my-modal-${id}`} className="badge">
               Details
             </label>
 
             {/* Put this part before </body> tag */}
-            <input type="checkbox" id="my-modal-6" className="modal-toggle" />
+            <input
+              type="checkbox"
+              id={`my-modal-${id}`}
+              className="modal-toggle"
+            />
             <div className="modal modal-bottom xxl:modal-middle pb-20 pl-16 pr-16">
               <div className="modal-box bg-orange-300 rounded-b-lg">
-                <div className="card xl:card-side bg-whit ">
+                <div className="card xl:card-side bg-white">
                   <figure>
-                    <img className="h-80" src={img} />
+                    <img className="h-80 object-cover" src={img} alt="Toy" />
                   </figure>
-                  <div className="card-body bg-green-200 text-left">
-                    <h2 className="card-title">{name}</h2>
-                    <p>{category}</p>
-                    <p>{description}</p>
-                    <p>
-                      Price: <b>{price}</b>
+                  <div className="card-body bg-green-200 text-left p-4">
+                    <h2 className="card-title text-lg font-semibold mb-2">
+                      {name}
+                    </h2>
+                    <p className="text-gray-700 text-sm mb-4">{category}</p>
+                    <p className="text-sm">{description}</p>
+                    <p className="text-gray-700 text-sm mt-2">
+                      Price: <b>${price}</b>
+                      <p>stock : 50 </p>
+                      <p>
+                        qunatity{" "}
+                        <div className="flex justify-start border-2 border-black w-10">
+                          <div className=" border-r-2 border-black w-5 p-[2px]">
+                            +1
+                          </div>
+                          <div className="  border-black w-5 p-[2px]">-1</div>
+                        </div>
+                      </p>
                     </p>
-                    <div className="rating">
+                    <div className="rating mt-2">
                       <input
                         type="radio"
                         name="rating-4"
@@ -103,14 +120,14 @@ const StoreSingleProduct = (props) => {
                         className="mask mask-star-2 bg-yellow-500"
                       />
                     </div>
-                    <div className="card-actions justify-end">
-                      <button className="btn btn-primary">add</button>
+                    <div className="card-actions justify-end mt-4">
+                      <button className="btn btn-primary">Add to Cart</button>
                     </div>
                   </div>
                 </div>
                 <div className="modal-action">
-                  <label htmlFor="my-modal-6" className="btn">
-                    close!
+                  <label htmlFor={`my-modal-${id}`} className="btn">
+                    Close
                   </label>
                 </div>
               </div>

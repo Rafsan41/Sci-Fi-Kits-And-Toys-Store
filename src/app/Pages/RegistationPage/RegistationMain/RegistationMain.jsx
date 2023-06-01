@@ -1,5 +1,11 @@
+import RegistationDetails from "../RegistationDetails/RegistationDetails";
+
 const RegistationMain = () => {
-  return <div>RegistationMain</div>;
+  return (
+    <div>
+      <RegistationDetails />
+    </div>
+  );
 };
 
 export default RegistationMain;

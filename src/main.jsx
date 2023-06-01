@@ -8,6 +8,9 @@ import AboutMain from "./app/Pages/AboutPage/AboutMain/AboutMain.jsx";
 import StoreMain from "./app/Pages/StorePage/StoreMain/StoreMain.jsx";
 import RegistationMain from "./app/Pages/RegistationPage/RegistationMain/RegistationMain.jsx";
 import LogInMain from "./app/Pages/LogInPage/LogInMain/LogInMain.jsx";
+import MyToysMain from "./app/Pages/MyToysPage/MyToysMain/MyToysMain.jsx";
+import AddToys from "./app/Pages/MyToysPage/AddToys/AddToys.jsx";
+import UpdateToys from "./app/Pages/MyToysPage/UpdateToys/UpdateToys.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,12 +22,31 @@ const router = createBrowserRouter([
         element: <HomeMain />,
       },
       {
+        path: "/",
+        element: <HomeMain />,
+      },
+      {
         path: "about",
         element: <AboutMain />,
       },
       {
         path: "allToys",
         element: <StoreMain />,
+        Loder: () => fetch("http://localhost:5000/allToys"),
+      },
+      {
+        path: "myToys",
+        element: <MyToysMain />,
+      },
+      {
+        path: "addProduct",
+        element: <AddToys />,
+      },
+      {
+        path: "/updateProduct/:id",
+        element: <UpdateToys />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/updateProduct/${params.id}`),
       },
       {
         path: "register",

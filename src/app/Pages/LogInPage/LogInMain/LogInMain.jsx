@@ -1,5 +1,11 @@
+import LogInDetails from "../LogInDetails/LogInDetails";
+
 const LogInMain = () => {
-  return <div>LogInMain</div>;
+  return (
+    <div>
+      <LogInDetails />
+    </div>
+  );
 };
 
 export default LogInMain;

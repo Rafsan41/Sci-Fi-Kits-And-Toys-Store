@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer footer-center  bg-base-200 text-base-content w-[100%]">
+    <div className="">
+      <footer className="footer  relative  footer-center  bg-gray-800 text-base-content w-[100%] mt-10">
         <div className="grid grid-flow-col gap-4">
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>

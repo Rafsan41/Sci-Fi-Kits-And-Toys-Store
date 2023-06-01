@@ -1,0 +1,40 @@
+.inputbox {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  left: 17%;
+  transform: translate(-20%, -2%);
+  background-color: gray;
+  border-radius: 7px;
+}
+.inputbox .inputmain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: 2px solid slateblue;
+  border-radius: 7px;
+  font-weight: 200;
+  color: slateblue;
+  font-weight: 500;
+}
+.inputSpan {
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+  font-weight: 500;
+  font-size: larger;
+  pointer-events: none;
+  transition: 0.4s;
+  color: slateblue;
+}
+.inputmain:focus + .inputSpan,
+.inputmain:valid + .inputSpan {
+  top: 0;
+  color: rgb(104, 104, 196);
+  padding: 3px;
+  background-color: rgb(251, 251, 251);
+  left: 10px;
+  font-size: 15px;
+}

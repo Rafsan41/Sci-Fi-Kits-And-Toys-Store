@@ -1,13 +1,17 @@
 import "./App.css";
 import NavBar from "./app/SharedComponant/NavBar/NavBar";
-import { Outlet } from "react-router";
+
 import Footer from "./app/SharedComponant/Footer/Footer";
+import HomeMain from "./app/Pages/HomePage/HomeMain/HomeMain";
+import { Outlet } from "react-router";
 
 function App() {
   return (
     <div className=" w-screen h-[100%]">
       <NavBar />
-      <Outlet />
+      <div className="h-[100%] ">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );

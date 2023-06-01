@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
-      <div className="navbar bg-purple-300">
+      <div className="navbar bg-purple-300 top-fixed">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">
             Sci-Fi Kits And Store
           </a>
         </div>
         <div className="flex-none gap-2">
-          <div className="form-control">
+          <div className="form-control sm:invisible xl:visible">
             <input
               type="text"
               placeholder="Search"
@@ -20,10 +20,13 @@ const NavBar = () => {
           <div className="flex-none mr-10">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Home</a>
+                <Link to="/home">Home</Link>
               </li>
               <li>
                 <Link to="/allToys">All Toys</Link>
+              </li>
+              <li>
+                <Link to="/myToys">My Toys</Link>
               </li>
               <li tabIndex={0}>
                 <a>
@@ -38,7 +41,7 @@ const NavBar = () => {
                     <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                   </svg>
                 </a>
-                <ul className="  bg-base-100">
+                <ul className=" z-10 bg-base-100">
                   <li>
                     <Link to="/aboutUs">About Us</Link>
                   </li>
@@ -57,12 +60,12 @@ const NavBar = () => {
               <div className="flex justify-center text-gray-50 gap-5 mr-5">
                 <div>
                   <button className="bg-blue-400">
-                    <Link to="/register">Register</Link>
+                    <Link to="/logIn">Log In</Link>
                   </button>
                 </div>
                 <div>
                   <button className="bg-blue-400">
-                    <Link to="/logIn">Log In</Link>
+                    <Link to="/">Log Out</Link>
                   </button>
                 </div>
               </div>
@@ -90,9 +93,6 @@ const NavBar = () => {
                   </li>
                   <li>
                     <a>Settings</a>
-                  </li>
-                  <li>
-                    <a>Logout</a>
                   </li>
                 </ul>
               </div>
