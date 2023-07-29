@@ -22,12 +22,12 @@ const LogInDetails = () => {
             <div className="card-body">
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text text-black">Email</span>
                 </label>
                 <input
                   type="text"
                   placeholder="email"
-                  className="input bg-opacity-20"
+                  className="input bg-opacity-20 text-black bg-none"
                 />
               </div>
               <div className="form-control">

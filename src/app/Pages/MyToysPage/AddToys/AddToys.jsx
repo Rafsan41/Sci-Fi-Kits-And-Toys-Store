@@ -1,7 +1,9 @@
-import ToysSideBar from "../ToysSideBar/ToysSideBar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./AddToys.css";
+import { BiStore } from "react-icons/bi";
+import { Link } from "react-router-dom";
+
 const AddToys = () => {
   const handelAddProduct = (event) => {
     event.preventDefault();
@@ -41,15 +43,22 @@ const AddToys = () => {
 
   return (
     <div>
-      <div className="flex justify-start">
-        <div className="w-[20%] fixed z-10">
-          <ToysSideBar />
-        </div>
+      <div className="flex justify-center ">
         <form onSubmit={handelAddProduct} className="w-[100%]">
           <div>
             <ToastContainer theme="colored" />
           </div>
-          <div className="w-[70%] mt-10 m-5 ml-[22%] p-5 bg-gray-400  rounded-md">
+          <div className="w-screen mt-10 m-5  p-5 bg-gray-400  rounded-md">
+            <button className="flex justify-start">
+              <div
+                className=" flex  tooltip mt-3 text-stone-100 m-2  rounded-lg "
+                data-tip="My Toys"
+              >
+                <Link to="/mytoys">
+                  <BiStore fontSize={"30px"} />
+                </Link>
+              </div>
+            </button>
             <div>
               <div className="flex justify-center bg-white  p-3 rounded-xl">
                 <div className="w-[50%]  p-5">

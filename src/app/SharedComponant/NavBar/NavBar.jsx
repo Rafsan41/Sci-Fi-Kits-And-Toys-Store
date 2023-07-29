@@ -59,13 +59,17 @@ const NavBar = () => {
             <div className="flex justify-center">
               <div className="flex justify-center text-gray-50 gap-5 mr-5">
                 <div>
-                  <button className="bg-blue-400">
-                    <Link to="/logIn">Log In</Link>
+                  <button className="bg-blue-400 py-2 px-5 rounded-3xl ">
+                    <Link className="text-black " to="/logIn">
+                      Log In
+                    </Link>
                   </button>
                 </div>
                 <div>
-                  <button className="bg-blue-400">
-                    <Link to="/">Log Out</Link>
+                  <button className="bg-blue-400 py-2 px-5 rounded-3xl">
+                    <Link className="text-black" to="/">
+                      Log Out
+                    </Link>
                   </button>
                 </div>
               </div>

@@ -11,6 +11,7 @@ import LogInMain from "./app/Pages/LogInPage/LogInMain/LogInMain.jsx";
 import MyToysMain from "./app/Pages/MyToysPage/MyToysMain/MyToysMain.jsx";
 import AddToys from "./app/Pages/MyToysPage/AddToys/AddToys.jsx";
 import UpdateToys from "./app/Pages/MyToysPage/UpdateToys/UpdateToys.jsx";
+import StoreAllProduct from "./app/Pages/StorePage/StoreAllProduct/StoreAllProduct.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
         path: "allToys",
         element: <StoreMain />,
         Loder: () => fetch("http://localhost:5000/allToys"),
+      },
+      {
+        path: "totalProducts",
+        element: <StoreAllProduct />,
+        Loder: () => fetch("http://localhost:5000/totalProducts"),
       },
       {
         path: "myToys",

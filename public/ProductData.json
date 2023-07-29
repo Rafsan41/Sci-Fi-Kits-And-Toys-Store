@@ -5,6 +5,7 @@
     "category": "Chemistry",
     "img": "https://i.ibb.co/qknYYTc/16-activity-chemistry-kit-for-kidds.webp",
     "description": "A comprehensive chemistry lab set for conducting various experiments and learning about chemical reactions.",
+    "quantity": 50,
     "price": 49.99,
     "manufacturer": "ScienceFun",
     "available": true
@@ -15,6 +16,7 @@
     "category": "Biology",
     "img": "https://i.ibb.co/b3Fg0JJ/microsoft-kits.jpg",
     "description": "A beginner-friendly microscope kit that allows kids to explore the microscopic world and learn about cells and organisms.",
+    "quantity": 50,
     "price": 39.99,
     "manufacturer": "ExploreScience",
     "available": true
@@ -25,6 +27,7 @@
     "category": "Engineering",
     "img": "https://i.ibb.co/hcT8Jvg/Robot-Kits-for-Kids.webp",
     "description": "An educational kit that enables children to build and program their own robots, fostering creativity and problem-solving skills.",
+    "quantity": 50,
     "price": 79.99,
     "manufacturer": "TechGenius",
     "available": true
@@ -35,6 +38,7 @@
     "category": "Physics",
     "img": "https://i.ibb.co/5MDRyLN/Physics-Discovery-Set.jpg",
     "description": "A hands-on physics set that includes various experiments and activities to learn about forces, motion, and energy.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "ScienceExplorers",
     "available": true
@@ -45,6 +49,7 @@
     "category": "Astronomy",
     "img": "https://i.ibb.co/P6Yny3W/father-teaching-son-kids-science-education.jpg",
     "description": "A beginner's telescope that allows kids to observe celestial objects such as the moon, planets, and stars.",
+    "quantity": 50,
     "price": 59.99,
     "manufacturer": "StellarScopes",
     "available": true
@@ -55,6 +60,7 @@
     "category": "Geology",
     "img": "https://i.ibb.co/cx4TRDx/Geology-Rock-Collection.jpg",
     "description": "A collection of various rocks and minerals with an identification guide, perfect for budding geologists.",
+    "quantity": 50,
     "price": 19.99,
     "manufacturer": "RockHunters",
     "available": true
@@ -65,6 +71,7 @@
     "category": "Meteorology",
     "img": "https://i.ibb.co/FxtGQ3s/Weather-Science-Kit.jpg",
     "description": "A kit that explores weather phenomena through experiments and helps kids understand the science behind weather patterns.",
+    "quantity": 50,
     "price": 24.99,
     "manufacturer": "WeatherWizards",
     "available": true
@@ -75,6 +82,7 @@
     "category": "Biology",
     "img": "https://i.ibb.co/f0QkNtZ/DNA-Extraction-Lab.jpg",
     "description": "An interactive lab set that allows kids to extract DNA from various sources and learn about genetics.",
+    "quantity": 50,
     "price": 34.99,
     "manufacturer": "BioExplorers",
     "available": true
@@ -85,6 +93,7 @@
     "category": "Renewable Energy",
     "img": "https://i.ibb.co/KwwVbr7/solar.jpg",
     "description": "A kit that teaches kids about solar energy by building and experimenting with solar-powered models and devices.",
+    "quantity": 50,
     "price": 44.99,
     "manufacturer": "SolarTech",
     "available": true
@@ -95,6 +104,7 @@
     "category": "Forensics",
     "img": "https://i.ibb.co/Fbkt8Cj/Forensic-Science-Kit.jpg",
     "description": "A kit that introduces kids to the world of forensic science through solving mysteries and analyzing evidence.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "CrimeSolvers",
     "available": true
@@ -105,6 +115,7 @@
     "category": "Electronics",
     "img": "https://i.ibb.co/K7FCrBt/Electronics-Starter-Set.jpg",
     "description": "An introductory electronics kit that teaches basic circuitry and allows kids to build simple electronic projects.",
+    "quantity": 50,
     "price": 19.99,
     "manufacturer": "CircuitMasters",
     "available": true
@@ -115,6 +126,7 @@
     "category": "Mathematics",
     "img": "https://i.ibb.co/cYfdQ3Z/mathmatical.jpg",
     "description": "A collection of mathematical puzzles and games that promote logical thinking and problem-solving skills.",
+    "quantity": 50,
     "price": 14.99,
     "manufacturer": "MathWizards",
     "available": true
@@ -125,6 +137,7 @@
     "category": "Biology",
     "img": "https://i.ibb.co/yYJ2L8m/Human-Anatomy.jpg",
     "description": "A detailed human anatomy model that allows kids to explore the human body and learn about its different systems.",
+    "quantity": 50,
     "price": 54.99,
     "manufacturer": "AnatomyExperts",
     "available": true
@@ -135,6 +148,7 @@
     "category": "Physics",
     "img": "https://i.ibb.co/1GYGQ5N/electric-science-kit.jpg",
     "description": "A hands-on kit that introduces kids to the principles of electricity through fun experiments and projects.",
+    "quantity": 50,
     "price": 34.99,
     "manufacturer": "ElectricGenius",
     "available": true
@@ -155,6 +169,7 @@
     "category": "Forestry",
     "img": "https://i.ibb.co/0mpNR1c/Forestry-Field-Kit.jpg",
     "description": "A field kit that equips kids with tools to explore forests, identify trees, and understand forest ecosystems.",
+    "quantity": 50,
     "price": 39.99,
     "manufacturer": "ForestExplorations",
     "available": true
@@ -163,8 +178,10 @@
     "id": 17,
     "name": "Paleontology Excavation Set",
     "category": "Paleontology",
+    "quantity": 50,
     "img": "https://i.ibb.co/rGxg6Bf/Paleontology-Excavation-Set.jpg",
     "description": "An excavation kit that allows kids to dig and discover replica fossils while learning about prehistoric life.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "DinoDiscoveries",
     "available": true
@@ -175,6 +192,7 @@
     "category": "Physics",
     "img": "https://i.ibb.co/GFHjH4s/Physics-Experiment-Kit.jpg",
     "description": "A kit that offers hands-on experiments to explore the fundamental concepts of physics and their applications.",
+    "quantity": 50,
     "price": 49.99,
     "manufacturer": "PhysicsPro",
     "available": true
@@ -185,6 +203,7 @@
     "category": "Astronomy",
     "img": "https://i.ibb.co/vkDCS3N/Space-Exploration.jpg",
     "description": "A set that delves into space exploration, featuring models of rockets, space shuttles, and planetary systems.",
+    "quantity": 50,
     "price": 59.99,
     "manufacturer": "SpaceAdventures",
     "available": true
@@ -193,8 +212,10 @@
     "id": 20,
     "name": "Geography Globe",
     "category": "Geography",
+    "quantity": 50,
     "img": "https://i.ibb.co/bKdVNxN/Geography-Globe.jpg",
     "description": "An interactive globe that helps kids learn about continents, countries, and geographic features.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "GeoWorld",
     "available": true
@@ -205,6 +226,7 @@
     "category": "Renewable Energy",
     "img": "https://i.ibb.co/T2hfFPL/Renewable-Energy-Experiment.jpg",
     "description": "A kit that allows kids to build and experiment with renewable energy sources like wind, water, and solar power.",
+    "quantity": 50,
     "price": 44.99,
     "manufacturer": "RenewTech",
     "available": true
@@ -215,6 +237,7 @@
     "category": "Zoology",
     "img": "https://i.ibb.co/WHw93BB/Zoology.jpg",
     "description": "A kit that introduces kids to the world of animals through interactive activities and animal-themed experiments.",
+    "quantity": 50,
     "price": 24.99,
     "manufacturer": "ZooExplorers",
     "available": true
@@ -225,6 +248,7 @@
     "category": "Computer Science",
     "img": "https://i.ibb.co/cwfzHmZ/kids-coding.jpg",
     "description": "A kit that teaches kids the basics of coding and programming through engaging projects and challenges.",
+    "quantity": 50,
     "price": 39.99,
     "manufacturer": "CodeMasters",
     "available": true
@@ -235,6 +259,7 @@
     "category": "Marine Biology",
     "img": "https://i.ibb.co/pjgGFHJ/Marine-Biology.jpg",
     "description": "A set that explores marine life and ecosystems, featuring models of marine organisms and educational materials.",
+    "quantity": 50,
     "price": 34.99,
     "manufacturer": "MarineExplorations",
     "available": true
@@ -245,6 +270,7 @@
     "category": "Mathematics",
     "img": "https://i.ibb.co/GT8PyVM/Mathematical-Puzzle-Set-for-kids.jpg",
     "description": "A collection of mathematical puzzles and games that promote logical thinking and problem-solving skills.",
+    "quantity": 50,
     "price": 14.99,
     "manufacturer": "MathWizards",
     "available": true
@@ -255,6 +281,7 @@
     "category": "Electronics",
     "img": "https://i.ibb.co/8gGHpk4/mathsolve.png",
     "description": "A kit that allows kids to build and experiment with different electrical circuits and components.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "CircuitBuilders",
     "available": true
@@ -265,6 +292,7 @@
     "category": "Meteorology",
     "img": "https://i.ibb.co/HxfqR6q/Weather-Unit-Study-W.webp",
     "description": "A weather station kit that enables kids to measure and record weather conditions like temperature, humidity, and wind speed.",
+    "quantity": 50,
     "price": 49.99,
     "manufacturer": "WeatherMasters",
     "available": true
@@ -275,6 +303,7 @@
     "category": "Botany",
     "img": "https://i.ibb.co/5FP4ZLF/growind.jpg",
     "description": "A kit that allows kids to grow and observe plants, learning about plant life cycles and botanical concepts.",
+    "quantity": 50,
     "price": 19.99,
     "manufacturer": "PlantGrowers",
     "available": true
@@ -285,6 +314,7 @@
     "category": "Archaeology",
     "img": "https://i.ibb.co/thTn10V/Archaeology-Excavation.jpg",
     "description": "An excavation kit that lets kids dig and uncover replica artifacts, exploring the field of archaeology.",
+    "quantity": 50,
     "price": 24.99,
     "manufacturer": "ArchaeoDiscover",
     "available": true
@@ -295,6 +325,7 @@
     "category": "Physics",
     "img": "https://i.ibb.co/TYtJ2L1/Magnet-Science-Kit.jpg",
     "description": "A kit that explores the principles of magnetism through hands-on experiments and magnetic constructions.",
+    "quantity": 50,
     "price": 34.99,
     "manufacturer": "MagnetGenius",
     "available": true
@@ -305,6 +336,7 @@
     "category": "Astronomy",
     "img": "https://i.ibb.co/H2GSgg9/Astrophysics-Telescope.jpg",
     "description": "An advanced telescope designed for aspiring astrophysicists, allowing detailed observations of celestial objects.",
+    "quantity": 50,
     "price": 129.99,
     "manufacturer": "AstroTech",
     "available": true
@@ -315,6 +347,7 @@
     "category": "Biology",
     "img": "https://i.ibb.co/55qq5Dy/Anatomy-Puzzle-Set.jpg",
     "description": "A puzzle set that challenges kids to assemble anatomical models, learning about the human body in a fun way.",
+    "quantity": 50,
     "price": 19.99,
     "manufacturer": "BioPuzzlers",
     "available": true
@@ -325,6 +358,7 @@
     "category": "Chemistry",
     "img": "https://i.ibb.co/f9W1Rt0/Chemical-Reactions.jpg",
     "description": "A kit that allows kids to perform safe and exciting chemical reactions, understanding the basics of chemistry.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "ChemLab",
     "available": true
@@ -335,6 +369,7 @@
     "category": "Engineering",
     "img": "https://i.ibb.co/R4mtcbn/Robot-Building.jpg",
     "description": "A set that enables kids to build their own robots with modular components and program them to perform various tasks.",
+    "quantity": 50,
     "price": 69.99,
     "manufacturer": "RoboBuilders",
     "available": true
@@ -345,6 +380,7 @@
     "category": "Geology",
     "img": "https://i.ibb.co/5k1Dhzk/geologykid.jpg",
     "description": "A field kit that equips young geologists with tools to explore rocks, minerals, and geological formations.",
+    "quantity": 50,
     "price": 39.99,
     "manufacturer": "GeoExplorations",
     "available": true
@@ -355,6 +391,7 @@
     "category": "Renewable Energy",
     "img": "https://i.ibb.co/9GJzPTY/Renewable-Energy-Car.jpg",
     "description": "A kit that allows kids to build and power their own renewable energy-powered cars, understanding clean energy concepts.",
+    "quantity": 50,
     "price": 49.99,
     "manufacturer": "EcoWheels",
     "available": true
@@ -365,6 +402,7 @@
     "category": "Paleontology",
     "img": "https://i.ibb.co/P4F21N7/dinosor.jpg",
     "description": "An excavation kit that lets kids dig and uncover replica dinosaur fossils, learning about paleontology.",
+    "quantity": 50,
     "price": 34.99,
     "manufacturer": "DinoDig",
     "available": true
@@ -375,6 +413,7 @@
     "category": "Physics",
     "img": "https://i.ibb.co/ZM1vqKp/electronic-kits.jpg",
     "description": "A comprehensive kit that explores the relationship between electricity and magnetism through experiments and projects.",
+    "quantity": 50,
     "price": 54.99,
     "manufacturer": "ElectroMag",
     "available": true
@@ -385,6 +424,7 @@
     "category": "Astronomy",
     "img": "https://i.ibb.co/wR8376X/microscope.jpg",
     "description": "A combination set featuring both a telescope and a microscope, allowing kids to explore both the macroscopic and microscopic worlds.",
+    "quantity": 50,
     "price": 79.99,
     "manufacturer": "SciScope",
     "available": true
@@ -395,6 +435,7 @@
     "category": "Environmental Science",
     "img": "https://i.ibb.co/Tt7T95W/climatechange.jpg",
     "description": "A kit that teaches kids about climate change and its impact through experiments and simulations.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "ClimateSci",
     "available": true
@@ -405,6 +446,7 @@
     "category": "Computer Science",
     "img": "https://i.ibb.co/dfPhNrF/Robot-Building.jpg",
     "description": "A coding kit that combines robotics and programming, allowing kids to code their robots to perform specific tasks.",
+    "quantity": 50,
     "price": 59.99,
     "manufacturer": "RoboCode",
     "available": true
@@ -415,6 +457,7 @@
     "category": "Marine Biology",
     "img": "https://i.ibb.co/TWNjF8y/Marine-Life-Exploration.webp",
     "description": "A set that introduces kids to the wonders of marine life through interactive activities and marine-themed experiments.",
+    "quantity": 50,
     "price": 24.99,
     "manufacturer": "MarineExplorers",
     "available": true
@@ -425,6 +468,7 @@
     "category": "Mathematics",
     "img": "https://i.ibb.co/W25s1Ys/Mathematical-Puzzle.jpg",
     "description": "A collection of mathematical puzzles and games that promote logical thinking and problem-solving skills.",
+    "quantity": 50,
     "price": 14.99,
     "manufacturer": "MathWizards",
     "available": true
@@ -435,6 +479,7 @@
     "category": "Electronics",
     "img": "https://i.ibb.co/vzpZ2zp/electronic-circuit.jpg",
     "description": "A kit that introduces kids to circuit design and allows them to create their own electronic projects.",
+    "quantity": 50,
     "price": 39.99,
     "manufacturer": "CircuitDesigners",
     "available": true
@@ -445,6 +490,7 @@
     "category": "Meteorology",
     "img": "https://i.ibb.co/3WyKdvB/educating-children-about-weather-climate-a.webp",
     "description": "A weather station kit that enables kids to observe and predict weather conditions based on atmospheric measurements.",
+    "quantity": 50,
     "price": 44.99,
     "manufacturer": "WeatherForecasters",
     "available": true
@@ -455,6 +501,7 @@
     "category": "Botany",
     "img": "https://i.ibb.co/8KPWqPF/images-4.jpg",
     "description": "A kit that allows kids to explore plant anatomy and learn about the structure and function of different plant parts.",
+    "quantity": 50,
     "price": 29.99,
     "manufacturer": "PlantAnatomy",
     "available": true
@@ -465,6 +512,7 @@
     "category": "Archaeology",
     "img": "https://i.ibb.co/HDW1fvL/Egyptology-Explorationjpg.jpg",
     "description": "A set that transports kids to ancient Egypt, featuring replicas of artifacts and activities related to Egyptian history.",
+    "quantity": 50,
     "price": 34.99,
     "manufacturer": "EgyptExplorers",
     "available": true
@@ -475,6 +523,7 @@
     "category": "Physics",
     "img": "https://i.ibb.co/QdsvSTd/Optics-and-Light-Experiment.jpg",
     "description": "A kit that explores the properties of light and optics through hands-on experiments and optical illusions.",
+    "quantity": 50,
     "price": 34.99,
     "manufacturer": "OptiScience",
     "available": true
@@ -486,6 +535,7 @@
     "img": "https://i.ibb.co/KKJYsps/Astrobiology.jpg",
     "description": "A set that introduces kids to astrobiology, exploring the possibility of life beyond Earth through experiments and simulations.",
     "price": 24.99,
+    "quantity": 50,
     "manufacturer": "AstroBio",
     "available": true
   },
@@ -495,6 +545,7 @@
     "category": "Earth Science",
     "img": "https://i.ibb.co/ngpqJgr/Volcano-Science.jpg",
     "description": "A kit that allows kids to create and simulate volcanic eruptions, learning about the geology and processes behind volcanoes.",
+    "quantity": 50,
     "price": 19.99,
     "manufacturer": "VolcanoExplorers",
     "available": true

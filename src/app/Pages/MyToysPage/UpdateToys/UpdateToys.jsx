@@ -44,14 +44,11 @@ const UpdateToys = () => {
   return (
     <div>
       <div className="flex justify-start">
-        <div className="w-[20%] fixed z-10">
-          <ToysSideBar />
-        </div>
         <form onSubmit={handelUpdateProduct} className="w-[100%]">
           <div>
             <ToastContainer theme="colored" />
           </div>
-          <div className="w-[70%] mt-10 m-5 ml-[22%] p-5 bg-gray-400  rounded-md">
+          <div className="w-[98%] mt-10 m-5  p-5 bg-gray-400  rounded-md">
             <div>
               <div className="flex justify-center bg-white  p-3 rounded-xl">
                 <div className="w-[50%]  p-5">
